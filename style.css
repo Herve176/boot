@@ -43,15 +43,18 @@ body{
     overflow: hidden;
     box-shadow: 0 0 0 0.25rem rgba(255,228,132,0.4);
 }
-.droptn{
-    border: none;
-    cursor: pointer;
-    
-}
 .a1{
     display: flex;
 }
 .ser{
     width: 300px;
     margin-left: 7%;
+}
+.dropdown{
+    margin-left: 7%;
+}
+.githubfot{
+    width: 30px;
+    height: 30px;
+    margin-left: 3%;
 }
