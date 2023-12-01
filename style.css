@@ -58,3 +58,9 @@ body{
     height: 30px;
     margin-left: 3%;
 }
+::placeholder{
+    color: white;
+}
+a{
+    color: white;
+}
