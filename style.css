@@ -80,7 +80,11 @@ a{
 }
 .droptn2{
     border: none;
-    padding: 1px;
+    padding-bottom: 1px;
+}
+.droptn2:hoover ~ .option2{
+    display: block;
+    background-color: white;
 }
 
 
