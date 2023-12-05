@@ -52,6 +52,7 @@ body{
 }
 .dropdown{
     margin-left: 7%;
+    
 }
 .githubfot{
     width: 30px;
@@ -62,5 +63,25 @@ body{
     color: white;
 }
 a{
-    color: white;
+    color: rgba(255,255,255,0.85);
+    font-family: system-ui;
+    font-weight: 0.25px;
+}
+.option{
+    color: #fff;
+    padding: 2px;
+    display: none;
+    background-color: black;
+    border: 1px solid white;
+    transition-duration: 2s;
+    position: fixed;
+    
+    
+    
+}
+.droptn:hover ~ .option{
+    display: inline-block;
+    
+    
+    background-color: red;
 }
