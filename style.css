@@ -68,7 +68,7 @@ a{
     font-weight: 0.25px;
 }
 .option{
-    color: #fff;
+    color: black;
     padding: 2px;
     display: none;
     background-color: black;
@@ -80,8 +80,9 @@ a{
     
 }
 .droptn:hover ~ .option{
-    display: inline-block;
+    display: block;
     
     
-    background-color: red;
+    background-color: white;
 }
+
