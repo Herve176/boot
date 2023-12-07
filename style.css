@@ -81,6 +81,7 @@ a{
 .droptn2{
     border: none;
     padding-bottom: 1px;
+    margin-left: 95%;
 }
 .droptn2:hoover ~ .option2{
     display: block;
